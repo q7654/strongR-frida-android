@@ -99,7 +99,7 @@ jobs:
       id: setup-ndk
       uses: Lz1y/setup-ndk@v1.0.6
       with:
-        ndk-version: r23
+        ndk-version: r24
 
     - name: Set up Python 3.8
       uses: actions/setup-python@v2
