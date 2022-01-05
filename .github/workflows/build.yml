@@ -97,7 +97,7 @@ jobs:
 
     - name: Setup Android NDK
       id: setup-ndk
-      uses: Lz1y/setup-ndk@v1.0.7
+      uses: Lz1y/setup-ndk@v1.0.8
       with:
         ndk-version: r24
 
