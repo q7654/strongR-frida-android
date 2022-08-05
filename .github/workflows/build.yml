@@ -26,7 +26,7 @@ jobs:
             const {
               data: { tag_name: ver }
             } = releaseResponse;
-            core.setOutput('FRIDA_VERSION', '14.2.18');
+            core.setOutput('FRIDA_VERSION', ver);
       - name: Check release version
         id: checkReleaseVersion
         uses: actions/github-script@v3.1.0
